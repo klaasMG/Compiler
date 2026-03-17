@@ -14,6 +14,7 @@ class TokenType(Enum):
     Multiply = "*"
     Divide = "/"
     Equal = "="
+    SemiColon = ";"
     Empty = 0
     
 @dataclass
